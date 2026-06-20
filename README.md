@@ -24,6 +24,25 @@ I build pool-level compliance infrastructure and AI-augmented safety tooling for
 - Stack: Next.js 16 + AI SDK 6 + Anthropic + Neon + Stripe
 - Farcaster AI agent + frames also live
 
+### pico — pennies of AI, settled inline
+
+A Farcaster Mini App that runs AI tools and charges a few cents of USDC per call over the x402 protocol. Distribution is via casts: every output gets posted back as a cast, branded made with pico. Users pick a tool (image gen, scrape, ask, summarize thread), pay a few cents of USDC via the x402 protocol, and post the result back as a cast — without leaving the app.
+
+The Mini App is a thin distribution layer on top of upstream APIs (fal.ai, Firecrawl, Anthropic via the Vercel AI Gateway, Neynar). It collects USDC from users via x402, calls the upstream, and returns the result. The operator's take rate is the difference between what the user pays and the upstream cost.
+
+Live @farcaster
+
+### Pico (celo-pico.vercel.app, )
+is a MiniPay-native mini app that brings true x402 micropayments to AI tools on Celo — users pay a few cents of cUSD per call to generate images, ask AI, scrape URLs, summarize content, or get DeFi signals, settled atomically via thirdweb's x402 facilitator, slotting directly into MiniPay's "stablecoins for everyday use" thesis.
+
+Live
+
+### Pico_bio_link like buy me a coffe --> pico-celo-bio-link.vercel.app
+
+Pico lets creators in Africa and beyond get paid by their fans using Celo MiniPay — no bank account, no Stripe, no middleman. Create a free bio link page in 30 seconds, set your price, and share it. Fans tap your link, confirm payment in MiniPay, and cUSD goes directly into your wallet. Built for mobile-first creators who want to sell tips, digital guides, or 1:1 calls using the money they already have on Celo.
+
+Live
+
 ## Background
 
 - **Uniswap Hook Incubator (UHI)** alum
@@ -35,4 +54,4 @@ I build pool-level compliance infrastructure and AI-augmented safety tooling for
 - 🐦 Twitter: [@gomathit4](https://twitter.com/gomathit4)
 - 🟣 Farcaster: [@goms](https://farcaster.xyz/goms)
 - 💼 LinkedIn: [defidataanalystgomathit](https://www.linkedin.com/in/defidataanalystgomathit/)
-- 🌐 [lexifi.vercel.app](https://lexifi.vercel.app) · [newsie.tech](https://newsie.tech)
+- 🌐 [lexifi.vercel.app](https://lexifiio.vercel.app/) · [newsie.tech](https://newsie.tech)
